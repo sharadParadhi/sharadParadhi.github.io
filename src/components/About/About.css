@@ -1,0 +1,54 @@
+#about{
+    margin-top: 100px;
+   display: flex;
+   flex-direction: column;
+  
+}
+.user-detail-name{
+    font-weight: bold;
+    color:orange;
+    font-size: 3rem;
+
+}
+.aboutme{
+    color: var(--black);
+    font-weight: bold;
+    font-size: 3rem;
+    z-index: 1px;
+    color:whitesmoke
+}
+.user-detail-name .aboutme{
+    color: var(--black);
+    font-weight: bold;
+    font-size: 3rem;
+    z-index: 1px;
+}
+#user-detail-intro{
+    width: 50%;
+    padding: 10px;
+    font-weight: 100;
+    font-size: 14px;
+    color: grey;
+    margin-top: 10px;
+}
+
+
+@media screen and (max-width:480px){
+
+    #about{
+        margin-top: -200px;
+       display: flex;
+       flex-direction: column;
+    }
+    #user-detail-intro{
+        width: 100%;
+        padding: 10px;
+        font-weight: 100;
+        font-size: 14px;
+        color: grey;
+        margin-top: 10px;
+    }
+
+
+    
+}

@@ -1,0 +1,99 @@
+import React, { useContext } from "react"
+import "./Intor.css"
+import Typewriter from "typewriter-effect"
+
+import linkeden from '../../img/linkedin (1).png'
+import instaram from "../../img/instagram.png"
+import vector1 from "../../img/Vector1.png"
+import github from "../../img/github.png"
+import glassimogi from "../../img/glassesimoji (1).png"
+import crown from "../../img/crown.png"
+import sharad from "../../img/sharadImage.jpg"
+import { Floating } from "../FloatingDiv/FloatingDiv"
+import { Link } from "react-scroll";
+
+
+import { motion } from "framer-motion"
+import { themeContext } from "../../contex"
+
+
+
+export const Intro = () => {
+    const theme = useContext(themeContext);
+  const darkMode = theme.state.darkMode;
+
+    const transition = { duration: 2, type: "spring" }
+
+    let stylObj={
+        color:"black"
+    }
+    let styl={
+        color:"white",
+        backgroundColor:"orange"
+    }
+    
+
+    return (
+        <div className="intro" id="intro">
+            <div className="i-left">
+                <div className="i-name">
+                    <span>Hey! I Am </span><span>Sharad Paradhi</span>
+                    <span className="text">
+                        <Typewriter
+                            options={{
+                                strings: [
+                                    "A Full Stack Web Developer",
+                                ],
+                                autoStart: true,
+                                loop: true,
+                                deleteSpeed: 10,
+                            }}
+                        />
+                    </span>
+
+                    <span>Analytical and detail-oriented aspiring Full Stack Developer. Capable of writing production-ready code using React JS, Redux,and CSS on the fronted ,Node JS and Express on the backend to build single page applications. Passionate about coding and strongly interested in working in a product based company.</span>
+                </div>
+                <button spy={true} to="ContactUs" smooth={true}  className="button i-button" style={darkMode?stylObj:styl}>
+                <Link spy={true} to="ContactUs" smooth={true} 
+             >
+
+              Hire Me!
+
+            </Link>
+              
+                </button>
+                <div className="i-icons">
+                    <a href="https://github.com/sharadParadhi"><img src={github} alt="" /></a>
+                    <a href="https://www.linkedin.com/in/sharad-paradhi-777a33241/"><img src={linkeden} alt="" /></a>
+                    <a href="">  <img src={instaram} alt="" /></a>
+                   
+                </div>
+                <div className="left-blur" style={{ background: "" }}></div>
+            </div>
+            <div className="i-right">
+                <img src={vector1} alt="" />
+                {/* <img src={vector2} alt="" /> */}
+
+                <motion.img
+                    initial={{ left: "-36%" }}
+                    whileInView={{ left: "-20%" }}
+                    transition={transition}
+                    src={glassimogi} alt="" />
+
+                <img className="mypic" src={sharad} alt="" />
+
+                <motion.div
+                    initial={{ top: "-24%", left: "90%" }}
+                    whileInView={{ left: "80%" }}
+                    transition={transition}
+                    style={{ top: "-20%", left: "100%" }}
+                    className="floating-div"
+                >
+                    <Floating image={crown} text1="" text2={""}/><span className="webDeveloper" style={{color:"orange"}}>Web Developer</span>
+                </motion.div>
+                <div className="blur" style={{ background: "" }}></div>
+            </div>
+            
+        </div>
+    )
+}

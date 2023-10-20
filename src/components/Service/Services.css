@@ -1,0 +1,119 @@
+.services{
+    padding:0.3rem o.3rem;
+    display: flex;
+    height:90vh;
+    margin: auto;
+    margin-bottom: 8rem;
+    margin-top:5rem;
+    margin-bottom: 13rem;
+    cursor: pointer;
+}
+
+.awesome{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+   
+}
+.awesome>:nth-child(1){
+    color:var(--black);
+    font-size:2.5rem;
+    font-weight:bold;
+}
+.awesome>:nth-child(2){
+    color:orange;
+    font-size:2.5rem;
+    font-weight:bold;
+}
+.awesome>:nth-child(3){
+    color:var(--grey);
+    font-size: 14px;
+    margin-top: 1rem;
+}
+.s-button{
+    width: 8rem;
+    height: 2rem;
+    margin-top: 1rem;
+    width: 60%;
+}
+
+.cards{
+    position: relative;
+}
+.cards>*{
+    position: absolute;
+}
+.project-style{
+    position: absolute;
+}
+
+.project1{
+    
+    left: 14rem;
+}
+
+.project2{
+    top: 12rem;
+    left: -4rem 
+}
+
+.project3{
+    
+    top: 29rem;
+    left: 14rem;
+}
+
+.project4{
+    top: 12rem;
+    left: 32rem;
+}
+
+@media screen and (max-width:480px) {
+    .services{
+        margin-top: 10rem;
+        display: flex;
+        flex-direction: column;
+      
+    }
+    .awesome{
+        display: flex;
+        flex-direction: column; 
+    }
+    
+    .cards{
+       position: absolute;
+       left: 2rem;    
+    }
+    .cards:hover{
+        margin-bottom: 20px;
+    }
+
+    .project-style{
+        position: absolute;
+    }
+    
+    .project1{
+        top:15rem;
+        left: 40%;
+    }
+    
+    .project2{
+        top: 41rem;
+        left: 40%;
+    }
+    
+    .project3{
+        top: 71rem;
+        left: 40%;
+    }
+    
+    .project4{
+        top: 100rem;
+        left: 40%;
+    }
+
+    
+
+     
+
+}

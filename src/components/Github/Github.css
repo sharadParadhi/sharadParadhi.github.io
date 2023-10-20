@@ -1,0 +1,76 @@
+.github{
+  margin-top: 600px;
+}
+
+#stat{
+    justify-content: space-between;
+    display: flex;
+    gap: 60px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+#github-top-langs{
+    border: 0px solid #42b2e6;
+    margin-top: -10%;
+    height: 196px;
+}
+
+.git-white{
+    font-size: 2rem;
+    color:orange;
+}
+
+.git-static{
+    font-size: 2rem;
+    color:white;
+}
+.react-activity-calendar{
+    margin-top: 20px;
+    width: 100%;
+}
+
+ @media screen and (max-width:480px) {
+    .github{
+        margin-top: 2000px;
+    }
+    #stat{
+        justify-content: space-between;
+        display: flex;
+        flex-direction: column;
+        gap: 60px;
+        margin: auto;
+        margin-top: 10px;
+    }
+    
+    #github-top-langs{
+        border: 0px solid #42b2e6;
+        margin-top: -10%;
+        height: 196px;
+    }
+    
+    .git-white{
+        font-size: 2rem;
+        color:orange;
+    }
+    
+    .git-static{
+        font-size: 2rem;
+        color:white;
+    }
+    #stat div img{
+        width: 100%;
+    }
+    .react-activity-calendar{
+        margin-top: 20px;
+    }
+    .cal{
+        width:110%
+    }
+    
+ }
+
+
+
+
+  

@@ -1,0 +1,199 @@
+.works{
+    padding: 0.3rem 0.3rem;
+    display: flex;
+    height: fit-content;
+    margin-top: 9rem;
+    margin-bottom: 500px;
+}
+.s-button{
+    width: 60%;
+}
+.s-button:hover{
+    color: black;
+}
+.parent-basic-skill{
+    position: relative;
+}
+.basic-skills{
+    width: max-content;
+    margin-top: 200px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: 100px;
+    position: absolute;
+    left: 50%;
+}
+.basic-skills span{
+    margin-left: 8rem;
+    
+}
+
+
+.des{
+    width: 400px;
+    padding: 10px;
+    font-weight: 100;
+    font-size: 14px;
+    color: grey;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+/* right side */
+
+.w-right{
+   
+    position: relative;
+}
+
+.w-mainCircle{
+    left:9rem;
+    position: relative;
+    width:18rem;
+    height: 18rem;
+    border-radius: 100%;
+    box-shadow: var(--smboxShadow);
+    top:2rem;
+    background: rgb(55, 53, 53);
+}
+
+.w-mainCircle>*{
+    position: absolute;
+}
+
+.w-mainCircle>:nth-child(1){
+    left:-3rem;
+    top:6rem;
+}
+.w-mainCircle>:nth-child(2){
+    left:6rem;
+    top:5rem;
+}
+
+.w-mainCircle>:nth-child(3){
+    left:6rem;
+    top:-3rem;
+}
+
+.w-mainCircle>:nth-child(4){
+    left:15rem;
+    top:5rem;
+}
+.w-mainCircle>:nth-child(5){
+    left:6rem;
+    top:13rem;
+}
+.w-secCircle{
+    width: 6rem;
+    height: 6rem;
+    position: absolute;
+    border-radius: 100%;
+    border: 5px solid #ebebeb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    box-shadow: var(--smboxShadow);
+    background: white;
+}
+
+.w-secCircle>img{
+    width: 100%;
+    transform: scale(0.6);
+}
+
+.w-backCircle{
+    background: blue;
+    height: 13rem;
+    width:13rem;
+    border-radius: 100%;
+    z-index: -1;
+    position: absolute;
+}
+.skill-img div{
+    margin: auto;
+    margin-top: 220px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 100%;
+    border-radius: 100%;
+    border: 5px solid #ebebeb;
+    background-color: aliceblue;
+   
+}
+
+.blueCircle{
+    background: blue;
+   left:18rem;
+   top:0rem;
+}
+.yellowCircle{
+    background: rgb(231, 202, 19);
+    left:18rem;
+    top:8rem;
+}
+
+
+@media screen and (max-width:480px)
+{
+    .works{
+        padding: 0.3rem 0.3rem;
+        display: flex;
+        flex-direction: column;
+        gap:4rem;
+        height: fit-content;
+        margin-top: 6rem;
+        margin-bottom: 650px;
+        width: 100%;
+    }
+    .w-mainCircle{
+        left:2rem;
+        position: relative;
+        width:18rem;
+        height: 18rem;
+        border-radius: 100%;
+        box-shadow: var(--smboxShadow);
+        top:2rem;
+        background: rgb(55, 53, 53);
+    }
+    
+    .blueCircle{
+        background: blue;
+       left:0rem;
+       top:0rem;
+    }
+    .yellowCircle{
+        background: rgb(231, 202, 19);
+        left:8rem;
+        top:0rem;
+    }
+    .parent-basic-skill{
+        position: relative;
+       
+    }
+    .basic-skills{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap:150px 0px;
+        left:-50%;
+       top:360px;
+    }
+    .basic-skills span{
+        margin-left: 8rem;
+        
+    }
+   
+
+    
+    
+    
+    
+}

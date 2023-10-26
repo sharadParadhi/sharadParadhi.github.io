@@ -20,17 +20,16 @@ import { motion } from "framer-motion"
 export const Works = () => {
 
     return (
-        <div className="works" id="Skills">
+        <div className="works" id="skills">
             <div className="awesome">
                 <span>work For All these</span>
                 <span>Tools & Skills</span>
                 <span className="des">
                 As a web developer, I thrive on the dynamic nature of the field, always eager to embrace new libraries and tools.  My portfolio is a testament to my enthusiasm for learning, where you'll find projects reflecting my quick adoption of cutting-edge technologies. I believe staying current is not just a choice; it's a commitment to delivering innovative and efficient solutions..
-                    <br></br>
-                    
+                    <br></br>  
                 </span>
                
-                    <Link spy={true} to="ContactUs" smooth={true}> <button className="button s-button"> Hire me </button></Link>
+                <Link spy={true} to="ContactUs" smooth={true}> <button className="button s-button"> Hire me </button></Link>
                   
 
                 <div className="parent-basic-skill">
@@ -41,9 +40,9 @@ export const Works = () => {
                         <span className="skills-card">
                             <div id="skill1" className="w-secCircle">
                             <img className="skills-card-img" src={js} alt="" />
-                            </div>
-                            
+                            </div>   
                         </span>
+
                         <span className="skills-card">
                             <div className="w-secCircle">
                                 <img className="skills-card-img" src={html} alt="" />

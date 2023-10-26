@@ -34,7 +34,7 @@ export const Intro = () => {
     
 
     return (
-        <div className="intro" id="intro">
+        <div className="intro" id="home">
             <div className="i-left">
                 <div className="i-name">
                     <span>Hey! I Am </span><span>Sharad Paradhi</span>
@@ -80,7 +80,7 @@ export const Intro = () => {
                     transition={transition}
                     src={glassimogi} alt="" />
 
-                <img className="mypic" src={sharad} alt="" />
+                <img className="home-img"  src={sharad} alt="" />
 
                 <motion.div
                     initial={{ top: "-24%", left: "90%" }}

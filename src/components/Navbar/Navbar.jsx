@@ -45,7 +45,7 @@ export const Navbar = () => {
   const colorObj={padding:"2px 2px", color: 'white', textDecoration: 'none',backgroundColor:"orange",borderRadius:"3px" }
   
   return (
-    <div className={`n-wrapper ${isOpen ? "open" : "close"}`} data-testid="nav-menu" style={{}}>
+    <div className={`n-wrapper ${isOpen ? "open" : "close"}`} id="nav-menu" style={{}}>
       <div className="n-left">
         <div className="n-name">Sharad</div>
         <Toggle />
@@ -53,16 +53,16 @@ export const Navbar = () => {
       <div className="n-right">
         <div className={`n-list ${isOpen ? "open" : "close"}`} style={stylObj}>
           <ul style={{ listStyleType: "none",}}>
-            <Link spy={true} to="intro" smooth={true} className="nav-link home">
+            <Link spy={true} to="home" smooth={true} className="nav-link home">
               <li>Home</li>
             </Link>
             <Link spy={true} to="about" smooth={true} className="nav-link about">
               <li>About</li>
             </Link>
-            <Link spy={true} to="Skills" smooth={true} className="nav-link skills">
+            <Link spy={true} to="skills" smooth={true} className="nav-link skills">
               <li>Skills</li>
             </Link>
-            <Link spy={true} to="Projects" smooth={true} className="nav-link projects">
+            <Link spy={true} to="projects" smooth={true} className="nav-link projects">
               <li>Projects</li>
             </Link>
             <Link spy={true} to="githubs" smooth={true} className="nav-link contact">
@@ -73,16 +73,11 @@ export const Navbar = () => {
               onClick={handleDownload}
                className="nav-link resume"
                 style={{ hover: {color:"orange"}}}
-              ><a style={colorObj}  href={cv}  download="sharad-resume.pdf"> Resume</a>
+              ><a id="resume-link-1" style={colorObj}  href={cv}  download="sharad-resume.pdf"> Resume</a>
              
              
             </Link>
-            <Link spy={true} to="ContactUs" smooth={true} 
-
-
-
-  // activeStyle={{ color: 'orange' }}
-  // hoverStyle={{ color: 'orange' }}
+            <Link spy={true} to="contact" smooth={true} 
              >
 
               Contact

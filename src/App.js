@@ -28,13 +28,8 @@ function App() {
       <About/>
       <Works/>
       <Services/>
-      {/* <Projects/> */}
-      {/* <Experiance/> */}
-      <Github/>
-      
-      {/* <Testimonial/> */}
+      <Github/> 
       <Contact/>
-      {/* <Footor/> */}
     </div>
   );
 }

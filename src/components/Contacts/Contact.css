@@ -4,8 +4,7 @@
   font-size: 20px;
   font-weight: 600;
 }
-
-#ContactUs {
+#contact{
   margin-top: 100px;
   background: #202020;
   display: grid;
@@ -110,7 +109,7 @@
 
 @media screen and (max-width:480px) {
 
-  #ContactUs {
+  #contact{
     margin-top: 100px;
     background: #202020;
     display: grid;

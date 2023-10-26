@@ -1,17 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.394e9bbd.css",
-    "main.js": "/static/js/main.e76f6712.js",
+    "main.js": "/static/js/main.5c51b3cb.js",
     "static/js/787.4eaaeaf1.chunk.js": "/static/js/787.4eaaeaf1.chunk.js",
     "static/media/woodencrafts.png": "/static/media/woodencrafts.02eb8497c62811a6468c.png",
     "static/media/snapdeal.png": "/static/media/snapdeal.afdc78cdec39dd68be97.png",
     "static/media/anthroplory1.png": "/static/media/anthroplory1.e38cf7632300867eea9d.png",
     "static/media/immortal.png": "/static/media/immortal.041ae082bb6d34691a92.png",
-    "static/media/ecommerce.png": "/static/media/ecommerce.522da76635d52117102b.png",
     "static/media/cv.pdf": "/static/media/cv.14a3992946f5663cd28e.pdf",
     "static/media/sharadImage.jpg": "/static/media/sharadImage.eb53d0e30aec29474dd8.jpg",
-    "static/media/sidebar.png": "/static/media/sidebar.b2225070b8adae68d063.png",
-    "static/media/musicapp.png": "/static/media/musicapp.f1c301f91904ef5f9249.png",
     "static/media/nodejs.png": "/static/media/nodejs.fc3bd1ec69d7a50e685a.png",
     "static/media/glassesimoji (1).png": "/static/media/glassesimoji (1).a08bdab12e8eb56a6874.png",
     "static/media/js.png": "/static/media/js.062825dbceed44567e91.png",
@@ -20,11 +17,11 @@
     "static/media/crown.png": "/static/media/crown.dbe416beae9b49b842ab.png",
     "index.html": "/index.html",
     "main.394e9bbd.css.map": "/static/css/main.394e9bbd.css.map",
-    "main.e76f6712.js.map": "/static/js/main.e76f6712.js.map",
+    "main.5c51b3cb.js.map": "/static/js/main.5c51b3cb.js.map",
     "787.4eaaeaf1.chunk.js.map": "/static/js/787.4eaaeaf1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.394e9bbd.css",
-    "static/js/main.e76f6712.js"
+    "static/js/main.5c51b3cb.js"
   ]
 }

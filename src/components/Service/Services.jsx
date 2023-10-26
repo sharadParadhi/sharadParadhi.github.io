@@ -21,7 +21,7 @@ export const Services = () => {
 
 
     return (
-        <div className="services" id="Projects">
+        <div className="services" id="projects">
             <div className="awesome">
                 <span style={{ color: darkMode ? "white" : "" }}>My Awesome</span>
                 <span>Projects</span>

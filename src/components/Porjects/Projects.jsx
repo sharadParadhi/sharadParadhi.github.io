@@ -2,10 +2,6 @@ import React from "react";
 import "./Projects.css"
 import {Swiper,SwiperSlide} from "swiper/react"
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
-import slide1 from "../../img/sidebar.png"
-import slider2 from "../../img/profile1.jpg"
-import slider3 from "../../img/musicapp.png"
-import slider4 from "../../img/ecommerce.png"
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';

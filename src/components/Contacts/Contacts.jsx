@@ -8,13 +8,13 @@ import { themeContext } from "../../contex";
 
 
 const Contact = () => {
+
   const theme=useContext(themeContext)
   const darkmode=theme.state.darkmode
 
-
   return (
     <>
-      <section className="nav-link contact" id="ContactUs">
+      <section className="nav-link contact" id="contact">
         
         <div className="nav-link-contact">
           <h2 style={{color:darkmode?"black":"white",fontSize:"2rem"}}>

@@ -18,7 +18,7 @@ export const About = () => {
     return (
         <div className="about section" id="about">
             <span className="aboutme" style={styleObj}>About me</span>
-            <span className="user-detail-name">Sharad Paradhi </span>
+            <span className="user-detail-name" id="user-detail-name">Sharad Paradhi </span>
             <span className="aboutme"  style={styleObj}>from Mumbai, Maharashtra</span>
             <span id="user-detail-intro">
             Greetings! I'm sharad paradhi, a dedicated full-stack web developer with a degree in Electrical Engineering from Mumbai University (2022). Despite my academic roots in electrical engineering, my true passion lies in crafting captivating web experiences.<br/>

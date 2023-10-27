@@ -11,6 +11,7 @@ import crown from "../../img/crown.png"
 import sharad from "../../img/sharadImage.jpg"
 import { Floating } from "../FloatingDiv/FloatingDiv"
 import { Link } from "react-scroll";
+import cv from "../../img/cv.pdf"
 
 
 import { motion } from "framer-motion"
@@ -25,11 +26,14 @@ export const Intro = () => {
     const transition = { duration: 2, type: "spring" }
 
     let stylObj={
-        color:"black"
+        color:"black",
+        font:"caption",
+      
     }
     let styl={
         color:"white",
-        backgroundColor:"orange"
+        backgroundColor:"orange",
+        font:"caption"
     }
     
 
@@ -55,7 +59,7 @@ export const Intro = () => {
                 </div>
                 <button id="resume-button-2"  className="button i-button" style={darkMode?stylObj:styl}>
               
-                <a  id="resume-link-2" href={"https://drive.google.com/file/d/14kCiunFstFNCzljkzWcboWv0pSfPYSU7/view?usp=sharing"} download="sharad-paradhi">
+                <a style={{textDecoration:"none",font:"caption",color:darkMode?"black":"white"}}  id="resume-link-2" href={cv} download="sharad-paradhi">
                     Download cv
                 </a>
                

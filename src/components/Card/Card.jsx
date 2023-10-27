@@ -22,7 +22,7 @@ export const Card = ({ emoji, description, detail, title, gitLink, dipLink }) =>
             <h3 className="project-title">Title - {title}</h3>
             <p className="project-description"> Description - {description}</p>
             <p className="project-tech-stack">Tech Stack - {detail}</p>
-            {isHoverd &&
+            {
                 <div className="links">
                     <a href={gitLink} className="project-github-link"
                     ><AiOutlineGithub style={

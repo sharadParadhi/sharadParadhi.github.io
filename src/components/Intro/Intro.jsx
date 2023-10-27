@@ -53,13 +53,13 @@ export const Intro = () => {
 
                     <span>Analytical and detail-oriented aspiring Full Stack Developer. Capable of writing production-ready code using React JS, Redux,and CSS on the fronted ,Node JS and Express on the backend to build single page applications. Passionate about coding and strongly interested in working in a product based company.</span>
                 </div>
-                <button spy={true} to="ContactUs" smooth={true}  className="button i-button" style={darkMode?stylObj:styl}>
-                <Link spy={true} to="ContactUs" smooth={true} 
-             >
-
-              Hire Me!
-
-            </Link>
+                <button id="resume-button-2"  className="button i-button" style={darkMode?stylObj:styl}>
+              
+                <a  id="resume-link-2" href={"https://drive.google.com/file/d/14kCiunFstFNCzljkzWcboWv0pSfPYSU7/view?usp=sharing"} download="sharad-paradhi">
+                    Download cv
+                </a>
+               
+               
               
                 </button>
                 <div className="i-icons">

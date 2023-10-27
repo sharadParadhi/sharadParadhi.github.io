@@ -26,6 +26,7 @@ export const Navbar = () => {
     console.log("cv",cv)
     const link = document.createElement('a');
     console.log("link",link)
+    link.setAttribute("id","resume-link-1")
     link.href = cv;
     console.log("link,",link)
     link.download = "sharad-resume"; //cv Set the desired download filename
@@ -68,20 +69,19 @@ export const Navbar = () => {
             <Link spy={true} to="githubs" smooth={true} >
               <li>Github</li>
             </Link>
-            <Link spy={true} to="Testimonials" smooth={true} download='pdf'
-              
+            <button id="resume-button-1" style={{backgroundColor:"orange",borderRadius:"3px",border:"none",padding:"4px"}}>
+              <Link spy={true} to="Testimonials" smooth={true} download='pdf'
+              id="resume-link-1"
               onClick={handleDownload}
                className="nav-link resume"
-                style={{ hover: {color:"orange"}}}
-              ><a id="resume-link-1" style={colorObj}  href={cv}  download="sharad-resume.pdf"> Resume</a>
-             
-             
+              >
+             Resume
             </Link>
+            </button>
+            
             <Link spy={true} to="contact" smooth={true} className="nav-link contact"
              >
-
               Contact
-
             </Link>
           </ul>
         </div>

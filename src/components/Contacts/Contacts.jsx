@@ -14,7 +14,7 @@ const Contact = () => {
 
   return (
     <>
-      <section className="nav-link contact" id="contact">
+      <section id="contact">
         
         <div className="nav-link-contact">
           <h2 style={{color:darkmode?"black":"white",fontSize:"2rem"}}>

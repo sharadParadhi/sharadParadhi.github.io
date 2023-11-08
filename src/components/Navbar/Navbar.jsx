@@ -71,7 +71,9 @@ export const Navbar = () => {
             </Link>
             <Link spy={true} to="contact" smooth={true} className="nav-link contact"
              >
-              Contact
+              
+              <li>Contact</li>
+              
             </Link>
             <button id="resume-button-1" style={{backgroundColor:"orange",borderRadius:"3px",border:"none",padding:"4px"}}>
               <Link spy={true} to="Testimonials" smooth={true} download='pdf'

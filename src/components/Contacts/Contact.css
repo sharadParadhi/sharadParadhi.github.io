@@ -1,3 +1,7 @@
+section #contact{
+  background-color: orange;
+}
+
 .nav-link-contact h4 {
   color: white;
   margin: 18px 0;
@@ -6,12 +10,11 @@
 }
 #contact{
   margin-top: 100px;
-  background: #202020;
+  background: orange;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
   gap: 2.5rem;
-  background-color: orange;
   padding: 20px;
   border-radius: 8px;
 }
@@ -36,6 +39,10 @@
   text-decoration: none;
 }
 
+.list li a:hover {
+  color: black;
+}
+
 .nav-link-contact p {
   font-size: var(--p-font);
   color: var(--second-color);
@@ -43,10 +50,7 @@
   margin-bottom: 30px;
 }
 
-.list li a:hover {
-  color: green;
-  display: block;
-}
+
 
 /* Contact side */
 
@@ -64,9 +68,18 @@
   transition: all 0.45s ease;
 }
 
-.contact-icons i:hover {
-  background-color: var(--text-color);
-  color: var(--main-color);
+.icon{
+  background-color: rgb(224, 212, 188);
+  size: 90px;
+  transition: 0.1s ease;
+  z-index: 1;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.icon:hover{
+  transform: translateY(3px);
+  size: 120px;
 }
 
 .fill-form form input{
@@ -95,30 +108,36 @@
 }
 
 .fill-form .submit {
-   margin-top: 10px;
+  margin-top: 10px;
   font-size: 16px;
   background: rgb(146, 150, 146);
-  
+  transition: 0.2s ease;
   
 }
 
 .fill-form .submit:hover {
   
   cursor: pointer;
+  opacity:0.7;
+  
+  
+
 }
 
 @media screen and (max-width:480px) {
 
+
   #contact{
-    margin-top: 100px;
-    background: #202020;
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    align-items: center;
-    gap: 2.5rem;
+   position: absolute;
+   background: orange;
+  }
+  
+  .fill-form{
+    margin: auto;
+    position:absolute;
+    top:100%;
     background-color: orange;
     padding: 20px;
-    border-radius: 8px;
   }
   
 }

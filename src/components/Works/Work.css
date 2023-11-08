@@ -26,10 +26,8 @@
     left: 50%;
 }
 .basic-skills span{
-    margin-left: 8rem;
-    
+    margin-left: 8rem;  
 }
-
 
 .des{
     width: 400px;
@@ -61,6 +59,7 @@
     box-shadow: var(--smboxShadow);
     top:2rem;
     background: rgb(55, 53, 53);
+    margin-bottom: 5rem;
 }
 
 .w-mainCircle>*{
@@ -108,6 +107,11 @@
     transform: scale(0.6);
 }
 
+.w-secCircle>p{
+    position: absolute;
+    top:120px
+}
+
 .w-backCircle{
     background: blue;
     height: 13rem;
@@ -125,20 +129,35 @@
     width: 100%;
     border-radius: 100%;
     border: 5px solid #ebebeb;
-    background-color: aliceblue;
-   
+    background-color: aliceblue;  
 }
+
+
+
+.skill-card{
+    position: absolute;
+    top:80px;
+}
+
+.skills-card-name{
+    color:orange;
+    position: absolute;
+    margin-top: 20px;
+}
+
 
 .blueCircle{
     background: blue;
    left:18rem;
    top:0rem;
 }
+
 .yellowCircle{
     background: rgb(231, 202, 19);
     left:18rem;
     top:8rem;
 }
+
 
 
 @media screen and (max-width:480px)
@@ -163,34 +182,46 @@
         top:2rem;
         background: rgb(55, 53, 53);
     }
+
     
     .blueCircle{
         background: blue;
        left:0rem;
        top:0rem;
     }
+
     .yellowCircle{
         background: rgb(231, 202, 19);
         left:8rem;
         top:0rem;
     }
+
     .parent-basic-skill{
         position: relative;
-       
+        margin-bottom: 50px;
     }
+
     .basic-skills{
         width: 100%;
         display: grid;
         grid-template-columns: repeat(2,1fr);
         gap:150px 0px;
         left:-50%;
-       top:360px;
-    }
-    .basic-skills span{
-        margin-left: 8rem;
+        top:410px;
         
     }
-   
+
+    .basic-skills span{
+        margin-left: 8rem; 
+        margin-top: 1.3rem; 
+        
+    }
+
+
+.skills-card-name{
+    color:orange;
+        margin-top: 10px;
+}
 
     
     

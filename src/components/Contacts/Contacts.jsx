@@ -14,7 +14,7 @@ const Contact = () => {
 
   return (
     <>
-      <section id="contact">
+      <section id="contact" style={{background:"orange"}}>
         
         <div className="nav-link-contact">
           <h2 style={{color:darkmode?"black":"white",fontSize:"2rem"}}>
@@ -67,7 +67,7 @@ const Contact = () => {
               rel="noreferrer"
             >
               <i>
-                <AiFillGithub />
+                <AiFillGithub className="icon"/>
               </i>
             </a>
             <a
@@ -76,7 +76,7 @@ const Contact = () => {
               rel="noreferrer"
             >
               <i>
-                <AiOutlineWhatsApp />
+                <AiOutlineWhatsApp className="icon" />
               </i>
             </a>
             <a
@@ -86,7 +86,7 @@ const Contact = () => {
               rel="noreferrer"
             >
               <i>
-                <BsLinkedin />
+                <BsLinkedin className="icon"/>
               </i>
             </a>
           </div>
@@ -97,14 +97,14 @@ const Contact = () => {
             <input type="name" placeholder="Your Name" required />
             <input type="email" placeholder="Your Email Address" required />
             <input type="" placeholder="Your Mobile Number" required />
-            {/* <textarea
+            <textarea
               type="text"
               id=""
               cols="35"
               rows="10" 
               placeholder="How Can I Help You"
               required
-            ></textarea> */}
+            ></textarea>
             {/* <textarea 
             type="text"
             id=""
@@ -113,12 +113,7 @@ const Contact = () => {
             placeholder="How Can I Help You"
             required
             /> */}
-            <input id=""
-            cols="35"
-            rows="10" 
-            placeholder="How Can I Help You"
-            required 
-            type="text" />
+            
             <input
               type="submit"
               value="Send Message"

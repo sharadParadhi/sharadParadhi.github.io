@@ -40,34 +40,44 @@ export const Works = () => {
                         <span className="skills-card">
                             <div id="skill1" className="w-secCircle">
                             <img className="skills-card-img" src={js} alt="" />
+                            <p className="skills-card-name">JavaScript</p>
                             </div>   
                         </span>
 
                         <span className="skills-card">
                             <div className="w-secCircle">
                                 <img className="skills-card-img" src={html} alt="" />
+                                <p className="skills-card-name">HTML</p>
                             </div>
                         </span>
                         <span className="skills-card">
                             <div className="w-secCircle">
                                 <img className="skills-card-img" src={css} alt="" />
+                                <p className="skills-card-name">CSS</p>
                             </div>
                         </span>
                         <span className="skills-card">
                             <div className="w-secCircle">
                                 <img className="skills-card-img" src={tailwindCss} alt="" />
+                                <p className="skills-card-name">Tailwind</p>
                             </div>
                         </span>
                         <span  className="skills-card">
                             <div className="w-secCircle">
                                 <img className="skills-card-img" src={github} alt="" />
+                                <p className="skills-card-name">Github</p>
                             </div>
                         </span>
-                        <span  className="skills-card">
+                        <div>
+                        {/* <span  className="skills-card">
                             <div className="w-secCircle">
                                 <img className="skills-card-img"  src={postman} alt="" />
+                                <p className="skills-card-name">Postman</p>
                             </div>
-                        </span>
+                            
+                        </span> */}
+                        
+                        </div>
                         
                     </div>
 

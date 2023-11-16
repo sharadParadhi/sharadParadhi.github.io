@@ -5,7 +5,7 @@
     margin: auto;
     margin-bottom: 8rem;
     margin-top:5rem;
-    margin-bottom: 13rem;
+    margin-bottom: auto;
     cursor: pointer;
 }
 
@@ -13,23 +13,30 @@
     display: flex;
     flex-direction: column;
     position: relative;
-   
 }
+
 .awesome>:nth-child(1){
     color:var(--black);
     font-size:2.5rem;
     font-weight:bold;
 }
+
 .awesome>:nth-child(2){
     color:orange;
     font-size:2.5rem;
     font-weight:bold;
 }
+
+
 .awesome>:nth-child(3){
     color:var(--grey);
-    font-size: 14px;
     margin-top: 1rem;
+    color:grey;
+    font-size:18px;
+    
 }
+
+
 .s-button{
     width: 8rem;
     height: 2rem;
@@ -48,7 +55,6 @@
 }
 
 .project1{
-    
     left: 14rem;
 }
 
@@ -68,13 +74,13 @@
     left: 32rem;
 }
 
-@media screen and (max-width:480px) {
+@media screen and (max-width:600px) {
     .services{
         margin-top: 10rem;
         display: flex;
         flex-direction: column;
-      
     }
+
     .awesome{
         display: flex;
         flex-direction: column; 

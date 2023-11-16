@@ -12,19 +12,35 @@ import js from "../../img/js.png"
 import tailwindCss from  "../../img/tailwindCss.jpg"
 import github from "../../img/gitpng.png"
 import postman from "../../img/postman.png"
+import expressnew1 from "../../img/express_new1.png"
 import { Link } from "react-scroll";
 
 
 import { motion } from "framer-motion"
 
 export const Works = () => {
+    const arr=[
+        
+        {image:js,name:"JavaScript"},
+        {image:html,name:"HTML"},
+        {image:css,name:"CSS"},
+        {image:react,name:"React"},
+        {image:mongo,name:"MongoDB"},
+        {image:nodejs,name:"Nodejs"},
+        {image:expressnew1,name:"Express js"},
+        {image:typescript,name:"TypeScript"},
+        {image:tailwindCss,name:"Tailwind CSS"},
+        {image:github,name:"Github"},
+        {image:postman,name:"postman"},
+    ]
+    
 
     return (
         <div className="works" id="skills">
             <div className="awesome">
-                <span>work For All these</span>
+                <span>Work For All these</span>
                 <span>Tools & Skills</span>
-                <span className="des">
+                <span className="des" style={{color:"grey",fontSize:"18px"}}>
                 As a web developer, I thrive on the dynamic nature of the field, always eager to embrace new libraries and tools.  My portfolio is a testament to my enthusiasm for learning, where you'll find projects reflecting my quick adoption of cutting-edge technologies. I believe staying current is not just a choice; it's a commitment to delivering innovative and efficient solutions..
                     <br></br>  
                 </span>
@@ -33,6 +49,18 @@ export const Works = () => {
                   
 
                 <div className="parent-basic-skill">
+                    <div className="basic-skill-first">
+                        {arr.map((ele,ind)=>{
+                            return (
+                            <span className="skills-card">
+                                <div id="skill1" className="w-secCircle">
+                                    <img className="skills-card-img" src={ele.image} alt="" />
+                                    <p className="skills-card-name">{ele.name}</p>
+                                </div>   
+                        </span>
+                            )
+                        })}
+                    </div>
                     <div className="basic-skills">
                         {/* <div id="skill1" className="w-secCircle">
                             <img src={js} alt="" /><br/>
@@ -96,7 +124,7 @@ export const Works = () => {
                     transition={{ duration: 3.5, type: "spring" }}
                     className="w-mainCircle">
                     <div className="w-secCircle">
-                        <img src={express} alt="" />
+                        <img src={expressnew1} alt="" />
                     </div>
                     <div className="w-secCircle">
                         <img src={mongo} alt="" />

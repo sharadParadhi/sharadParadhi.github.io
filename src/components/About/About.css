@@ -27,13 +27,31 @@
     width: 50%;
     padding: 10px;
     font-weight: 100;
-    font-size: 14px;
+    font-size: 18px;
     color: grey;
     margin-top: 10px;
 }
 
 
-@media screen and (max-width:480px){
+@media screen and (max-width:600px){
+
+    #about{
+        margin-top: -70%;
+       display: flex;
+       flex-direction: column;
+    }
+    #user-detail-intro{
+        width: 100%;
+        padding: 10px;
+        font-weight: 100;
+        font-size: 18px;
+        color: grey;
+        margin-top: 10px;
+    }
+    
+}
+
+@media screen and (max-width:900px){
 
     #about{
         margin-top: -200px;
@@ -44,7 +62,7 @@
         width: 100%;
         padding: 10px;
         font-weight: 100;
-        font-size: 14px;
+        font-size: 18px;
         color: grey;
         margin-top: 10px;
     }

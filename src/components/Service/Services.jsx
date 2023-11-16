@@ -25,10 +25,10 @@ export const Services = () => {
             <div className="awesome">
                 <span style={{ color: darkMode ? "white" : "" }}>My Awesome</span>
                 <span>Projects</span>
-                <span>
-                    Successfully developed some group project and individual Projects.
+                <span className="description">
+                    Successfully developed some group 
                     <br></br>
-                    Such as snapdeal, flipkart, anthroplogie etc.
+                    project and  individual Projects. 
                 </span>
                 <a  id="resume-link-2" href={cv} download="sharad-paradhi">
                     <button className="button s-button" >Download cv</button>

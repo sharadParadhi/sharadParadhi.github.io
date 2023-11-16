@@ -28,16 +28,19 @@
 .basic-skills span{
     margin-left: 8rem;  
 }
+.basic-skill-first{
+    display: none;
+}
 
 .des{
     width: 400px;
     padding: 10px;
     font-weight: 100;
-    font-size: 14px;
+    font-size: 18px;
     color: grey;
     margin-top: 10px;
+    
 }
-
 
 
 
@@ -48,6 +51,7 @@
 .w-right{
    
     position: relative;
+    margin-left: 10%;
 }
 
 .w-mainCircle{
@@ -140,7 +144,8 @@
 }
 
 .skills-card-name{
-    color:orange;
+    font-size: 20px;
+    color: grey;
     position: absolute;
     margin-top: 20px;
 }
@@ -160,7 +165,7 @@
 
 
 
-@media screen and (max-width:480px)
+@media screen and (max-width:600px)
 {
     .works{
         padding: 0.3rem 0.3rem;
@@ -172,6 +177,7 @@
         margin-bottom: 650px;
         width: 100%;
     }
+
     .w-mainCircle{
         left:2rem;
         position: relative;
@@ -219,12 +225,114 @@
 
 
 .skills-card-name{
-    color:orange;
-        margin-top: 10px;
+    color: grey;
+    margin-top: 10px;
 }
 
+.des{
+    width: 100%;
+    padding: 10px;
+    font-weight: 100;
+    font-size: 18px;
+    color: grey;
+    margin-top: 10px;
+}
+
+}
+
+
+
+@media screen and (max-width:900px)
+{
+    .works{
+        padding: 0.3rem 0.3rem;
+        display: flex;
+        flex-direction: column;
+        gap:4rem;
+        height: fit-content;
+        margin-top: 6rem;
+        margin-bottom: auto;
+        width: 100%;
+    }
+
+    .w-mainCircle{
+        left:2rem;
+        position: relative;
+        width:18rem;
+        height: 18rem;
+        border-radius: 100%;
+        box-shadow: var(--smboxShadow);
+        top:2rem;
+        background: rgb(55, 53, 53);
+    }
+
     
-    
-    
-    
+    .blueCircle{
+        background: blue;
+       left:0rem;
+       top:0rem;
+    }
+
+    .yellowCircle{
+        background: rgb(231, 202, 19);
+        left:8rem;
+        top:0rem;
+    }
+
+    .parent-basic-skill{
+        position: relative;
+        
+        /* display: none; */
+    }
+
+    .basic-skill-first{
+        display: block;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        gap:2rem;
+    }
+
+    .basic-skills{
+        display: none;
+    }
+    .w-right{
+        display: none;
+    }
+    /* .basic-skills{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap:150px 0px;
+        left:-50%;
+        top:410px;
+        
+    }
+
+    .basic-skills span{
+        margin-left: 8rem; 
+        margin-top: 1.3rem; 
+        
+    } */
+    /* .basic-skill-first span{
+        margin-left: 8rem; 
+        margin-top: 7rem; 
+    } */
+
+    .skills-card{
+        margin: 4rem;
+        object-fit: contain;
+    }
+
+
+.des{
+    width: 100%;
+    padding: 10px;
+    font-weight: 100;
+    font-size: 18px;
+    color: grey;
+    margin-top: 10px;
+    text-align: left;
+}
+
 }

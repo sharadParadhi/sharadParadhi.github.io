@@ -77,24 +77,18 @@ export const Intro = () => {
             <div className="i-right">
                 <img src={vector1} alt="" />
                 {/* <img src={vector2} alt="" /> */}
-
-                <motion.img
-                    initial={{ left: "-36%" }}
-                    whileInView={{ left: "-20%" }}
-                    transition={transition}
-                    src={glassimogi} alt="" />
-
                 <img className="home-img"  src={sharad} alt="" />
 
-                <motion.div
+                {/* <motion.div
                     initial={{ top: "-24%", left: "90%" }}
                     whileInView={{ left: "80%" }}
                     transition={transition}
-                    style={{ top: "-20%", left: "100%" }}
+                    style={{ top: "-80%", left: "100%" }}
                     className="floating-div"
                 >
                     <Floating image={crown} text1="" text2={""}/><span className="webDeveloper" style={{color:"orange"}}>Web Developer</span>
-                </motion.div>
+                </motion.div> */}
+                  <img className="sec-img"  src={sharad} alt="" />
                 <div className="blur" style={{ background: "" }}></div>
             </div>
             

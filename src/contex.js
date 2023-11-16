@@ -3,7 +3,7 @@ import { createContext,useContext, useReducer } from "react"
 
 export const themeContext=createContext()
 
-const initialState={darkMode:false}
+const initialState={darkMode:true}
 
 const themeReducer=(state,{type,paylaod})=>{
     switch(type){

@@ -1,27 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.b8c7d66a.css",
-    "main.js": "/static/js/main.5f76634a.js",
+    "main.css": "/static/css/main.67075eeb.css",
+    "main.js": "/static/js/main.2d46305a.js",
     "static/js/787.4eaaeaf1.chunk.js": "/static/js/787.4eaaeaf1.chunk.js",
     "static/media/woodencrafts.png": "/static/media/woodencrafts.02eb8497c62811a6468c.png",
     "static/media/snapdeal.png": "/static/media/snapdeal.afdc78cdec39dd68be97.png",
     "static/media/anthroplory1.png": "/static/media/anthroplory1.e38cf7632300867eea9d.png",
     "static/media/immortal.png": "/static/media/immortal.041ae082bb6d34691a92.png",
-    "static/media/cv.pdf": "/static/media/cv.14a3992946f5663cd28e.pdf",
     "static/media/sharadImage.jpg": "/static/media/sharadImage.eb53d0e30aec29474dd8.jpg",
     "static/media/nodejs.png": "/static/media/nodejs.fc3bd1ec69d7a50e685a.png",
+    "static/media/cv.pdf": "/static/media/cv.beff85f39199301786db.pdf",
     "static/media/glassesimoji (1).png": "/static/media/glassesimoji (1).a08bdab12e8eb56a6874.png",
+    "static/media/express_new1.png": "/static/media/express_new1.9fdf49bc16f9ebe037ac.png",
     "static/media/js.png": "/static/media/js.062825dbceed44567e91.png",
     "static/media/mongodb.png": "/static/media/mongodb.a345dfdf9d54c890747a.png",
     "static/media/wave.png": "/static/media/wave.fdfef4069ad90f610990.png",
     "static/media/crown.png": "/static/media/crown.dbe416beae9b49b842ab.png",
     "index.html": "/index.html",
-    "main.b8c7d66a.css.map": "/static/css/main.b8c7d66a.css.map",
-    "main.5f76634a.js.map": "/static/js/main.5f76634a.js.map",
+    "main.67075eeb.css.map": "/static/css/main.67075eeb.css.map",
+    "main.2d46305a.js.map": "/static/js/main.2d46305a.js.map",
     "787.4eaaeaf1.chunk.js.map": "/static/js/787.4eaaeaf1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b8c7d66a.css",
-    "static/js/main.5f76634a.js"
+    "static/css/main.67075eeb.css",
+    "static/js/main.2d46305a.js"
   ]
 }

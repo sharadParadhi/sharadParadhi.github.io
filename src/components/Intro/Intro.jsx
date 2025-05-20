@@ -88,8 +88,9 @@ export const Intro = () => {
                 >
                     <Floating image={crown} text1="" text2={""}/><span className="webDeveloper" style={{color:"orange"}}>Web Developer</span>
                 </motion.div> */}
-                  <img className="sec-img"  src={sharad} alt="" />
+                <img className="sec-img"  src={sharad} alt="" />
                 <div className="blur" style={{ background: "" }}></div>
+                <div className="addspace"></div>
             </div>
             
         </div>

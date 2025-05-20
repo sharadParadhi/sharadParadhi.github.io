@@ -41,7 +41,7 @@ export const Works = () => {
                 <span>Work For All these</span>
                 <span>Tools & Skills</span>
                 <span className="des" style={{color:"grey",fontSize:"18px"}}>
-                As a web developer, I thrive on the dynamic nature of the field, always eager to embrace new libraries and tools.  My portfolio is a testament to my enthusiasm for learning, where you'll find projects reflecting my quick adoption of cutting-edge technologies. I believe staying current is not just a choice; it's a commitment to delivering innovative and efficient solutions..
+                As a web developer, I thrive on the dynamic nature of the field, always eager to embrace new libraries and tools.  My portfolio is a testament to my enthusiasm for learning, where you'll find projects reflecting my quick adoption of cutting-edge technologies. I believe staying update is not just a choice; it's a commitment to delivering innovative and efficient solutions..
                     <br></br>  
                 </span>
                

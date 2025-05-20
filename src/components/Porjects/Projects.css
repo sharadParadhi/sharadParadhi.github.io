@@ -40,3 +40,11 @@
 .project-card{
     padding: 10px;
 }
+
+
+@media screen and (max-width:400px) {
+    .project{
+        margin-bottom:2000px !important;
+    }
+    
+ }

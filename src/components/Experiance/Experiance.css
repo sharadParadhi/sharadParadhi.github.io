@@ -1,10 +1,16 @@
 .experiance{
-    display: flex;
-    align-items: center;
-    justify-content: center;
     gap:5rem;
     height: 30vh;
-    margin-bottom: 8rem;
+    margin-top: 40px;
+}
+.experiance-text{
+    font-weight: bold;
+    color:orange;
+    font-size: 3rem;
+    text-align: left;
+}
+.expriance-details{
+    display: flex;
 }
 .achievement{
     display: flex;
@@ -23,6 +29,11 @@
     justify-content: center;
     font-size: 1.5rem;
     font-weight: bold;
+}
+.circle.dark{
+    color: orange;
+    background-color: rgb(178, 242, 242);
+
 }
 .circle::before{
     border-radius: 100%;
@@ -44,3 +55,102 @@
 .achievement span:nth-of-type(2){
     color: orange;
 }
+
+/* CSS */
+.experiance-details {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.expriance-details-1{
+    padding: 10px;
+    font-weight: 100;
+    font-size: 18px;
+    color: grey;
+    margin-top: 10px;
+}
+
+#experiance-detail-intro {
+    width: 50%;
+    padding: 10px;
+    font-weight: 100;
+    font-size: 18px;
+    color: grey;
+    margin-top: 10px;
+}
+
+.company{
+  margin-left: -10px;
+  font-size: 26px;
+}
+
+
+
+   
+/* Mobile Styles */
+@media only screen and (max-width: 768px) {
+    .experiance {
+      height: auto; /* Adjust height to fit content */
+      padding: 20px; /* Add padding for better spacing */
+    }
+    .experiance-text{
+      font-weight: bold;
+      color:orange;
+      font-size: 3rem;
+      text-align: left;
+      width: fit-content;
+  }
+  
+    .expriance-details{
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      width: auto; /* Make experience details full width */
+      text-align: left; /* Center align text */
+    }
+    #experiance-detail-intro{
+      width: 50%;
+      padding: 10px;
+      font-weight: 100;
+      font-size: 18px;
+      color: grey;
+      margin-top: 10px;
+  }
+  
+    .achievement {
+      margin-top: 40px; 
+      margin-left: -60%;/* Add margin for spacing */
+    }
+
+    .circle{
+      width: 4rem;
+      height: 4rem;
+      background: white;
+      border-radius: 100%;
+      font-size: 1.5rem;
+      font-weight: bold;
+  }
+  .circle.dark{
+      color: orange;
+      background-color: rgb(178, 242, 242);
+  }
+  }
+  
+  /* Tablet Styles */
+  @media only screen and (min-width: 769px) and (max-width: 1024px) {
+    /* No specific changes, keeping stacked layout */
+  }
+  
+  /* Desktop Styles */
+  @media only screen and (min-width: 1025px) {
+    .experiance-details-1 {
+      width: 50%; /* Set experience details to half width */
+      text-align: left; /* Align text to the left */
+    }
+  
+    .achievement {
+      width: 50%; /* Set achievement section to half width */
+      text-align: center; /* Center align text */
+    }
+  }
+  

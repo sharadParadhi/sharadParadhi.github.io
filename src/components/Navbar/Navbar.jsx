@@ -60,6 +60,9 @@ export const Navbar = () => {
             <Link spy={true} to="about" smooth={true} className="nav-link about">
               <li>About</li>
             </Link>
+            <Link spy={true} to="experiance" smooth={true}>
+              <li>Experiance</li>
+            </Link>
             <Link spy={true} to="skills" smooth={true} className="nav-link skills">
               <li>Skills</li>
             </Link>

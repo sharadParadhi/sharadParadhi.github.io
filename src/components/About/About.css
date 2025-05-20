@@ -32,11 +32,10 @@
     margin-top: 10px;
 }
 
-
-@media screen and (max-width:600px){
+@media screen and(max-width:400px){
 
     #about{
-        margin-top: -70%;
+        margin-top: 10rem;
        display: flex;
        flex-direction: column;
     }
@@ -50,6 +49,27 @@
     }
     
 }
+
+
+@media screen and(max-width:600px){
+
+    #about{
+        margin-top: -50%;
+       display: flex;
+       flex-direction: column;
+    }
+    #user-detail-intro{
+        width: 100%;
+        padding: 10px;
+        font-weight: 100;
+        font-size: 18px;
+        color: grey;
+        margin-top: 10px;
+    }
+    
+}
+
+
 
 @media screen and (max-width:900px){
 
@@ -70,3 +90,4 @@
 
     
 }
+

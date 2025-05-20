@@ -26,6 +26,7 @@ function App() {
       <Navbar/>
       <Intro/>
       <About/>
+      <Experiance/>
       <Works/>
       <Services/>
       <Github/> 

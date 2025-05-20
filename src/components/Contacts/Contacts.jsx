@@ -98,12 +98,12 @@ const Contact = () => {
             <input type="email" placeholder="Your Email Address" required />
             <input type="" placeholder="Your Mobile Number" required />
             <textarea
-              type="text"
+              value={""}
               id=""
               cols="35"
               rows="10" 
               placeholder="How Can I Help You"
-              required
+             
             ></textarea>
             {/* <textarea 
             type="text"
